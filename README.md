@@ -1,24 +1,24 @@
-# README
+# Flutter-app 🦋
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Be the social butterfly of traveling! ✈️
 
-Things you may want to cover:
+---
 
-* Ruby version
+## Wireframes
 
-* System dependencies
+![Wireframes](readme_img/1.png)
+![](readme_img/2.png)
+![](readme_img//3.png)
+![](readme_img/4.png)
+![](readme_img/5.png)
+![](readme_img/6.png)
 
-* Configuration
+---
 
-* Database creation
+## ERD
 
-* Database initialization
+![ERD](readme_img/erd.png)
 
-* How to run the test suite
+## User Stories
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+-
