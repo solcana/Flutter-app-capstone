@@ -1,6 +1,6 @@
 # Flutter-app 🦋
 
-Be the social butterfly of traveling! ✈️
+Be the social butterfly of travel! ✈️
 
 ---
 
@@ -20,5 +20,3 @@ Be the social butterfly of traveling! ✈️
 ![ERD](readme_img/erd.png)
 
 ## User Stories
-
--
