@@ -1,0 +1,2 @@
+class TravelLog < ApplicationRecord
+end
