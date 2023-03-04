@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
-  get "/travel_logs", to: "travel_logs#index"
+  get "/logs", to: "logs#index"
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Defines the root path route ("/")
-  root "travel_logs#index"
+  root "logs#index"
 end
