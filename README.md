@@ -33,3 +33,22 @@ Be the social butterfly of travel! ✈️
 - As a user I want to be able to navigate to each page, so that I can go to and use any page
 - As a user I want to be able to add comments under any log, so I can interact with other users via comments
 - As a user I want to be able to delete my comments, so I can remove it from the comments section
+
+## TO DOs
+
+- Add nav bar, that is present everywhere and takes user to necessary pages - feed (all logs), my logs (his logs), etc
+- User is able to add / delete / edit and view his logs on his MY LOGS page -> add this functionality
+- Add same functionality to each destination page option (city/ lake/ mountain/ beach)
+- Add option to delete user profile -> for 2nd model crud add / delete
+- Add comments CRUD
+- ADD link_to & redirects on all pages
+- Think some more on how to go about the category page - when is it logical for it popup
+- of course add styling
+
+## AS OF NOW
+
+- User must login
+- After login, he is prompted to feed page with most recent logs of all users
+- Can go to my_logs, and access only his logs
+- Can go to destination page to view all categories
+- As user clicks on any of the categories, redirected to page with his logs on that category
