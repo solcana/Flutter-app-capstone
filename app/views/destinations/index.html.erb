@@ -1,0 +1,5 @@
+<div class="category-grid">
+  <% @categories.each do |category| %>
+    <%= link_to category, destination_path(category) %>
+  <% end %>
+</div>

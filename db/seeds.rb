@@ -13,10 +13,10 @@
 PASSWORD = "password123"
 
 usmanb = User.create!(name: "Usman Bashir", email: "usmanb@gmail.com", password: PASSWORD)
-janetn = User.create!(name: "Janet Nackson", email: "janetn@gmail.com", password: PASSWORD)
-dollyb = User.create!(name: "Dolly Barton", email: "dollyb@gmail.com", password: PASSWORD)
-meltonj = User.create!(name: "Melton John", email: "meltonj@gmail.com", password: PASSWORD)
-asapm = User.create!(name: "Asap Mocky", email: "asapm@gmail.com", password: PASSWORD)
+janetn = User.create!(name: "Nanet Nackson", email: "nanetn@gmail.com", password: PASSWORD)
+dollyb = User.create!(name: "Tolly Barton", email: "tollyb@gmail.com", password: PASSWORD)
+meltonj = User.create!(name: "Alton John", email: "altonj@gmail.com", password: PASSWORD)
+asapm = User.create!(name: "Asap Mrocky", email: "asapm@gmail.com", password: PASSWORD)
 
 
 
