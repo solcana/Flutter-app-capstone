@@ -42,7 +42,8 @@ Be the social butterfly of travel! ✈️
 - Add option to delete user profile -> for 2nd model crud add / delete
 - Add comments CRUD
 - ADD link_to & redirects on all pages
-- Think some more on how to go about the category page - when is it logical for it popup
+- Think some more on how to go about the category page - when is it logical for it popup --> maybe add functionality - view only mine, view all
+
 - of course add styling
 
 ## AS OF NOW
@@ -52,3 +53,4 @@ Be the social butterfly of travel! ✈️
 - Can go to my_logs, and access only his logs
 - Can go to destination page to view all categories
 - As user clicks on any of the categories, redirected to page with his logs on that category
+- Once User creates new travel log, he is redirected to all his travel logs, in desc order

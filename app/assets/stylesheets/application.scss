@@ -13,3 +13,15 @@
  */
 
 @import "bootstrap";
+
+.travel-log-card {
+  width: 50%;
+  margin: 0 auto;
+  /* Centers the div horizontally with 60% width of all page */
+}
+.card-img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+}
