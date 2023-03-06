@@ -54,3 +54,4 @@ Be the social butterfly of travel! ✈️
 - Can go to destination page to view all categories
 - As user clicks on any of the categories, redirected to page with his logs on that category
 - Once User creates new travel log, he is redirected to all his travel logs, in desc order
+- add extra validations (unique for email, etc)
