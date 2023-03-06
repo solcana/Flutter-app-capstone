@@ -5,6 +5,7 @@ resources :travel_logs
 resources :users
 resources :destinations
 
+
   get 'my_logs', to: 'travel_logs#my_logs'
   get '/destinations', to: 'destinations#index'
   get '/destinations/:id', to: 'destinations#show'

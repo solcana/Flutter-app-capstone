@@ -18,7 +18,7 @@ class TravelLogsController < ApplicationController
 
   def create
     TravelLog.create(params.require(:travel_log).permit(:image, :title, :category, :description))
-    redirect_to travel_logs_path
+redirect_to travel_logs_path
   end
 
 end

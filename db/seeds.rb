@@ -19,7 +19,6 @@ meltonj = User.create!(name: "Alton John", email: "altonj@gmail.com", password: 
 asapm = User.create!(name: "Asap Mrocky", email: "asapm@gmail.com", password: PASSWORD)
 
 
-
 beach = Destination.create!(category: "beach")
 mountain = Destination.create!(category: "mountain")
 lake = Destination.create!(category: "lake")
