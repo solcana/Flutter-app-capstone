@@ -54,4 +54,10 @@ Be the social butterfly of travel! ✈️
 - Can go to destination page to view all categories
 - As user clicks on any of the categories, redirected to page with his logs on that category
 - Once User creates new travel log, he is redirected to all his travel logs, in desc order
-- add extra validations (unique for email, etc)
+- Current User can edit his own logs ONLY
+
+current crud
+
+- user can add new travel log, related to this specific user
+- user can edit his travel log
+- user can see all his travel logs / all travel logs

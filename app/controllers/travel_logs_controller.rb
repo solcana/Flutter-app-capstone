@@ -6,6 +6,10 @@ class TravelLogsController < ApplicationController
     # TravelLog.order(created_at: :desc).limit(10) -> displays most recent logs, limited to a 10 per page
   end
 
+  # def show
+  # @travel_log = TravelLog.find(params[:id])
+  # end
+
   def my_logs
   @travel_logs = current_user.travel_logs.order(created_at: :desc)
   # Show most recent logs by a specific user when user goes to My Logs
