@@ -48,5 +48,11 @@ class TravelLogsController < ApplicationController
     redirect_to my_logs_path
 end
 
+  def destroy
+    TravelLog.find(params[:id]).destroy
+
+    redirect_to travel_logs_path
+  end
+
 end
 
