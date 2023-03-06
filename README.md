@@ -61,3 +61,5 @@ current crud
 - user can add new travel log, related to this specific user
 - user can edit his travel log
 - user can see all his travel logs / all travel logs
+- user can delete travel log
+- ONLY ONE MISSING IS SHOW !!

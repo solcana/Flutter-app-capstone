@@ -2,6 +2,7 @@ class User < ApplicationRecord
   has_many :travel_logs, dependent: :destroy
 
   validates :name, :email, presence: true
+  validates :email, uniqueness: true
 
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable, :trackable and :omniauthable
