@@ -3,9 +3,11 @@
     <div class="card">
 <%= image_tag(travel_log.image, alt: travel_log.title, class: "card-img") %>
 
-      <div class="card-body">
+      <div class="card-body ">
         <h5 class="card-title"><%= travel_log.title %></h5>
-        <h6 class="card-subtitle mb-2 text-muted"><%= travel_log.destination.category %></h6>
+        <h6 class="card-subtitle mb-2 text-muted">
+  <%= link_to travel_log.destination.category, destination_path(travel_log.destination.category) %>
+</h6>
         <p class="card-text"><%= travel_log.description %></p>
         <p class="card-text"><small class="text-muted"><%= travel_log.user.name %></small></p>
       </div>
