@@ -27,7 +27,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_03_07_120009) do
     t.datetime "updated_at", null: false
     t.bigint "user_id", null: false
     t.bigint "destination_id", null: false
-    t.string "title", limit: 100
+    t.string "title", limit: 100 
     t.string "category"
     t.index ["destination_id"], name: "index_travel_logs_on_destination_id"
     t.index ["user_id"], name: "index_travel_logs_on_user_id"
@@ -49,3 +49,4 @@ ActiveRecord::Schema[7.0].define(version: 2023_03_07_120009) do
   add_foreign_key "travel_logs", "destinations"
   add_foreign_key "travel_logs", "users"
 end
+0
