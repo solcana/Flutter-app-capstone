@@ -36,8 +36,7 @@ Be the social butterfly of travel! ✈️
 
 ## TO DOs
 
-- Add nav bar, that is present everywhere and takes user to necessary pages - feed (all logs), my logs (his logs), etc
-- User is able to add / delete / edit and view his logs on his MY LOGS page -> add this functionality
+- Add NAV BAR!!, that is present everywhere and takes user to necessary pages - feed (all logs), my logs (his logs), etc
 - Add same functionality to each destination page option (city/ lake/ mountain/ beach)
 - Add option to delete user profile -> for 2nd model crud add / delete
 - Add comments CRUD
@@ -51,10 +50,10 @@ Be the social butterfly of travel! ✈️
 - User must login
 - After login, he is prompted to feed page with most recent logs of all users
 - Can go to my_logs, and access only his logs
-- Can go to destination page to view all categories
+- Can go to destination page to view all categories ()? keep??
 - As user clicks on any of the categories, redirected to page with his logs on that category
 - Once User creates new travel log, he is redirected to all his travel logs, in desc order
-- Current User can edit his own logs ONLY
+- Current User can edit and delete his own logs ONLY
 
 current crud
 

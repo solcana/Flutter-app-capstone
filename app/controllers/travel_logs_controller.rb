@@ -20,16 +20,11 @@ class TravelLogsController < ApplicationController
   end
 
   def create
-  category = params[:travel_log][:category]
-  destination = Destination.find_by(category: category)
-  @travel_log = current_user.travel_logs.create!(
-    destination: destination,
-    title: params[:travel_log][:title],
-    description: params[:travel_log][:description],
-    image: params[:travel_log][:image]
-  )
+  destination = Destination.find_by(category: travel_log_params[:category])
+  @travel_log = current_user.travel_logs.create!(travel_log_params.merge(destination: destination))
   redirect_to travel_logs_path
   end
+
 
   def edit
     @travel_log = TravelLog.find(params[:id])
@@ -37,21 +32,21 @@ class TravelLogsController < ApplicationController
 
   def update
   @travel_log = current_user.travel_logs.find(params[:id])
-  category = params[:travel_log][:category]
-  destination = Destination.find_by(category: category)
-  @travel_log.update(
-      destination: destination,
-      title: params[:travel_log][:title],
-      description: params[:travel_log][:description],
-      image: params[:travel_log][:image]
-    )
-    redirect_to my_logs_path
-end
+  destination = Destination.find_by(category: travel_log_params[:category])
+  @travel_log.update(travel_log_params.merge(destination: destination))
+  redirect_to my_logs_path
+  end
 
   def destroy
     TravelLog.find(params[:id]).destroy
 
     redirect_to travel_logs_path
+  end
+
+  private
+
+  def travel_log_params
+  params.require(:travel_log).permit(:category, :title, :description, :image)
   end
 
 end
