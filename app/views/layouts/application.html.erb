@@ -11,9 +11,10 @@
   </head>
 
   <body>
-         <p class="notice"><%= notice %></p>
-       <p class="alert"><%= alert %></p>
-       <header>
+    <%= render 'layouts/nav' %>
+      <span class="notice"><%= notice %></span>
+       <span class="alert"><%= alert %></span>
+       <header class="header">
        <% if user_signed_in? %>
         Welcome <%= current_user.email %>!
         &nbsp;|&nbsp;

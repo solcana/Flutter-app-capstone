@@ -1,9 +1,9 @@
 class TravelLogsController < ApplicationController
   before_action :authenticate_user!
   before_action :set_travel_log, only: [:edit, :destroy]
- 
-
   # authenticate user before using the website
+
+
   def index
     @travel_logs = TravelLog.order(created_at: :desc).limit(10)
     # TravelLog.order(created_at: :desc).limit(10) -> displays most recent logs, limited to a 10 per page
