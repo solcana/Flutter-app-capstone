@@ -2,23 +2,30 @@
 
 body {
   background: #f4eeff;
+  font-family: "Fira Sans Condensed", sans-serif;
 }
 .navbar {
   background: #424874;
 }
 .navbar-nav li a {
   color: #f4eeff;
+  font-family: "Koulen", cursive;
+  font-size: 18px;
 }
 .navbar-brand {
   color: #f4eeff;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 25px;
+  font-family: "Carter One", cursive;
+  padding: 0 0 0 5px;
 }
 .travel-log-card {
   width: 50%;
   margin: 0 auto;
   margin-top: 25px;
-  background: #fffafa;
+}
+.card {
+  width: 100%;
 }
 .card-img {
   display: block;
@@ -49,11 +56,12 @@ body {
   width: 80%;
   margin: 0 auto;
 }
-
 .comments-section {
   width: 80%;
   margin: 0 auto;
 }
-.wider-comments-form {
-  width: 80%;
+.delete-btn {
+  position: absolute;
+  top: 70px; /* adjust this value to match the height of your navbar */
+  right: 20px;
 }
