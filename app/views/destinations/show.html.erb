@@ -1,7 +1,9 @@
 <div class="card-deck travel-log-card">
   <% @travel_logs.each do |travel_log| %>
     <div class="card">
-<%= image_tag(travel_log.image, alt: travel_log.title, class: "card-img") %>
+<%= link_to travel_log_path(travel_log) do %>
+      <%= image_tag(travel_log.image, alt: travel_log.title, class: "card-img") %>
+      <% end %>
 
       <div class="card-body ">
         <h5 class="card-title"><%= travel_log.title %></h5>
