@@ -1,5 +1,6 @@
 class User < ApplicationRecord
   has_many :travel_logs, dependent: :destroy
+  has_many :comments, dependent: :destroy
 
   validates :email, :username, presence: true
   validates :email, uniqueness: true

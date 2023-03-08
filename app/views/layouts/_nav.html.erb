@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+<nav class="navbar navbar-expand-lg navbar-light">
   <a class="navbar-brand" href="travel_logs">Flutter 🦋</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -21,7 +21,7 @@
   </div>
   <ul class="nav navbar-nav ml-auto">
   <% if user_signed_in? %>
-    <li class="nav-item"><a class="nav-link" href="#"><%= current_user.email %></a></li>
+    <li class="nav-item"><a class="nav-link" href="#"><%= current_user.username %></a></li>
     <li class="nav-item"><a class="nav-link" href="<%= destroy_user_session_path %>" data-turbo-method="delete">Logout</a></li>
   <% else %>
     <li class="nav-item"><a class="nav-link" href="<%= new_user_registration_path %>">Sign Up</a></li>

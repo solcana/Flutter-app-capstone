@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
 devise_for :users
 
-resources :travel_logs
+resources :travel_logs do
+    resources :comments
+  end
 resources :users
 resources :destinations
 
