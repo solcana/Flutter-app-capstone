@@ -10,8 +10,10 @@ class TravelLogsController < ApplicationController
   end
 
   def show
-    @travel_log = TravelLog.find(params[:id])
-    @comment = @travel_log.comments.find_by(id: params[:comment_id], user_id: current_user.id)
+  @travel_log = TravelLog.find(params[:id])
+  @comments = @travel_log.comments
+  @comment = Comment.new
+  @current_user = current_user
   end
 
   def my_logs

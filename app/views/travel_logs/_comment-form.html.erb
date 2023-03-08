@@ -1,0 +1,35 @@
+<div class="comments-section">
+ <h2>Add a comment:</h2>
+<%= form_with model: [ @travel_log, @travel_log.comments.build ] do |form| %>
+     <p>
+  <%= form.hidden_field :user_id, value: current_user.id %>
+</p>
+  <p>
+    <%= form.label :content %><br>
+    <%= form.text_area :content %>
+  </p>
+  <p>
+    <%= form.submit %>
+  </p>
+<% end %>
+
+
+<h2>Comments</h2>
+<% @travel_log.comments.order(created_at: :desc).each do |comment| %>
+    <p>
+  <strong>Commenter:</strong>
+  <%= @current_user.username %>
+</p>
+  <p>
+    <strong>Comment:</strong>
+    <%= comment.content %>
+  </p>
+  <ul>
+  <li><%= link_to "Edit", travel_log_path(@travel_log) %></li>
+  <li><%= link_to "Destroy", travel_log_path(@travel_log), data: {
+                    turbo_method: :delete,
+                    turbo_confirm: "Are you sure?"
+                  } %></li>
+</ul>
+<% end %>
+</div>

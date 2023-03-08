@@ -1,6 +1,7 @@
-<div class="card-deck travel-log-card">
+<div id="travel-log-container">
+<div class="card-deck travel-log-show-container">
 <div class="card">
-      <%= image_tag(asset_path(@travel_log.image), alt: @travel_log.title, class: "card-img") %>
+      <%= image_tag(@travel_log.image, alt: @travel_log.title, class: "card-img") %>
       <div class="card-body">
         <h5 class="card-title"><%= @travel_log.title %></h5>
         <h6 class="card-subtitle mb-2 text-muted">
@@ -17,18 +18,11 @@
       </div>
     </div>
    </div>
+   </div>
+   </div>
 
-   <h2>Comments</h2>
 
-<% @travel_log.comments.each do |comment| %>
-  <div class="card">
-    <div class="card-body">
-      <p class="card-text"><%= comment.body %></p>
-      <p class="card-text"><small class="text-muted"><%= comment.user.username %></small></p>
-    </div>
-  </div>
-<% end %>
-
+<%= render partial: 'comment-form' %>
 
 
 
