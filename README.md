@@ -4,6 +4,29 @@ Be the social butterfly of travel! ✈️
 
 ---
 
+## About
+
+Flutter 🦋 is a Travel Log web application that allows users to create and share their travel logs and interact with other users via comments on travel logs. This is an individual full stack project built using Rails over a period of 7 days.
+
+---
+
+## Technologies Used
+
+- Ruby 3.2.1
+- Rails 7.0.4
+- Postgresql, for the database
+- Puma as the web server
+- Turbo-Rails for Hotwire's SPA-like page accelerator
+- Stimulus-Rails for Hotwire's modest JavaScript framework
+- Devise for authentication
+- Bootstrap 5.2.3 for styling
+
+---
+
+## Technologies Used
+
+---
+
 ## Wireframes
 
 ![Wireframes](readme_img/1.png)
@@ -44,21 +67,3 @@ Be the social butterfly of travel! ✈️
 - Think some more on how to go about the category page - when is it logical for it popup --> maybe add functionality - view only mine, view all
 
 - of course add styling
-
-## AS OF NOW
-
-- User must login
-- After login, he is prompted to feed page with most recent logs of all users
-- Can go to my_logs, and access only his logs
-- Can go to destination page to view all categories ()? keep??
-- As user clicks on any of the categories, redirected to page with his logs on that category
-- Once User creates new travel log, he is redirected to all his travel logs, in desc order
-- Current User can edit and delete his own logs ONLY
-
-current crud
-
-- user can add new travel log, related to this specific user
-- user can edit his travel log
-- user can see all his travel logs / all travel logs
-- user can delete travel log
-- ONLY ONE MISSING IS SHOW !!

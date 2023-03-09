@@ -4,4 +4,8 @@ class UsersController < ApplicationController
     @user.destroy
     redirect_to new_user_registration_path, notice: "User deleted."
     end
+
+    def show
+    @user= TravelLog.find(params[:id])
+    end
 end
