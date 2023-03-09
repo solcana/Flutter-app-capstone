@@ -53,12 +53,20 @@ Deployed version here:
 
 ---
 
-## 👩‍💻 Featured Code
+## ✅ User Stories
 
-- Add functionality to the comments section
-- Improve the styling and layout of the comments section
-- Create a user profile path where user can edit their information & delete profile
-- Add Maps API to show geographical locations of the travels
+- As a user I want to be able to login, so that I can access my profile
+- As a user I want to be able to sign up, so that I can start using the travel app
+- As a user I want to be able to view the feed, so that I can see all most recent travel logs, including mine and other people's
+- As a user I want to be able to add a travel log, so that I can view it in my logs and feed
+- As a user I want to be able to edit a travel log, so I can keep it up to date
+- As a user I want to be able to delete a travel log, so I can keep my logs up to date
+- As a user I want to be able to view all travel logs, so I see all my travel history
+- As a user I want to be able to delete my profile, so I can remove my profile from this app
+- As a user I want to be able to navigate to each page, so that I can go to and use any page
+- As a user I want to be able to add comments under any log, so I can interact with other users via comments
+- As a user I want to be able to delete my comments, so I can remove it from the comments section
+- As a user I want to be able to click on the destination link (beach, lake, city or mountain), and get redirected to the page with all associated travel logs, so that I can view all associated travel logs
 
 ---
 
@@ -111,20 +119,12 @@ if travel_log.user == current_user
 
 ---
 
-## ✅ User Stories
+## ✨ Future Improvements
 
-- As a user I want to be able to login, so that I can access my profile
-- As a user I want to be able to sign up, so that I can start using the travel app
-- As a user I want to be able to view the feed, so that I can see all most recent travel logs, including mine and other people's
-- As a user I want to be able to add a travel log, so that I can view it in my logs and feed
-- As a user I want to be able to edit a travel log, so I can keep it up to date
-- As a user I want to be able to delete a travel log, so I can keep my logs up to date
-- As a user I want to be able to view all travel logs, so I see all my travel history
-- As a user I want to be able to delete my profile, so I can remove my profile from this app
-- As a user I want to be able to navigate to each page, so that I can go to and use any page
-- As a user I want to be able to add comments under any log, so I can interact with other users via comments
-- As a user I want to be able to delete my comments, so I can remove it from the comments section
-- As a user I want to be able to click on the destination link (beach, lake, city or mountain), and get redirected to the page with all associated travel logs, so that I can view all associated travel logs
+- Add functionality to the comments section
+- Improve the styling and layout of the comments section
+- Create a user profile path where user can edit their information & delete profile
+- Add Maps API to show geographical locations of the travels
 
 ---
 
