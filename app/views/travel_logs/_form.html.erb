@@ -1,4 +1,6 @@
-<h1> Create New Travel Log </h1>
+
+<div class="new-travel-log-container">
+<h1 class="new-travel-log-h1"> Create New Travel Log </h1>
 
 <%= form_for @travel_log do |f| %>
 
@@ -22,7 +24,8 @@
 <%= f.text_area :description, rows: 3 %>
 </div>
 
-<%= f.submit "Submit", :class => "button" %>
+<%= f.submit "Submit", :class => "btn btn-primary" %>
 
 <% end %>
+</div>
 

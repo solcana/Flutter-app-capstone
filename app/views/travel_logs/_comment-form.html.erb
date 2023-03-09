@@ -16,20 +16,20 @@
 
 <h2>Comments</h2>
 <% @travel_log.comments.order(created_at: :desc).each do |comment| %>
-    <p>
-  <strong>Commenter:</strong>
-  <%= @current_user.username %>
-</p>
-  <p>
-    <strong>Comment:</strong>
-    <%= comment.content %>
-  </p>
-  <ul>
-  <li><%= link_to "Edit", travel_log_path(@travel_log) %></li>
-  <li><%= link_to "Destroy", travel_log_path(@travel_log), data: {
-                    turbo_method: :delete,
-                    turbo_confirm: "Are you sure?"
-                  } %></li>
-</ul>
+  <div class="card my-3">
+    <div class="card-body">
+      <h5 class="card-title"><%= comment.user.username %></h5>
+      <p class="card-text"><%= comment.content %></p>
+      <% if user_signed_in? && comment.user == current_user %>
+        <ul class="list-inline">
+          <li class="list-inline-item"><%= link_to "Edit", travel_log_path(@travel_log) %></li>
+          <li class="list-inline-item"><%= link_to "Delete", travel_log_path(@travel_log), data: {
+              turbo_method: :delete,
+              turbo_confirm: "Are you sure you want to delete comment?"
+            }, method: :delete %></li>
+        </ul>
+      <% end %>
+    </div>
+  </div>
 <% end %>
-</div>
+
