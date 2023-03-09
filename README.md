@@ -33,10 +33,9 @@ Deployed version here:
 
 ![Wireframes](readme_img/1.png)
 ![](readme_img/2.png)
-![](readme_img//3.png)
+![](readme_img/3.png)
 ![](readme_img/4.png)
 ![](readme_img/5.png)
-![](readme_img/6.png)
 
 ---
 
