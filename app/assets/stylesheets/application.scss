@@ -46,7 +46,7 @@ body {
 }
 .category-grid a {
   display: block;
-  padding: 100px;
+  padding: 150px;
   background: #dcd6f7;
   text-align: center;
   font-weight: bold;
@@ -107,5 +107,8 @@ body {
 }
 .login-container .actions,
 .registration-container .actions {
+  text-align: center;
+}
+.submit-new-form-btn {
   text-align: center;
 }

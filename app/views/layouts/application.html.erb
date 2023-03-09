@@ -17,9 +17,6 @@
   <body>
     <%= render 'layouts/nav' %>
       <span class="delete-btn">
-  <% if user_signed_in? %>
-    <%= link_to "Delete Profile", registration_path(current_user), data: { turbo_method: :delete, turbo_confirm: "Are you sure you want to delete your profile?" }, class: "btn btn-danger" %>
-  <% end %>
 </span>
     <%= yield %>
       <span class="notice"><%= notice %></span>

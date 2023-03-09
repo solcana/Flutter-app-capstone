@@ -25,6 +25,8 @@ Flutter 🦋 is a Travel Log web application that allows users to create and sha
 
 ## Technologies Used
 
+Deployed version here:
+
 ---
 
 ## Wireframes

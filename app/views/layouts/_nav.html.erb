@@ -6,16 +6,16 @@
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="travel_logs">Feed <span class="sr-only"></span></a>
+        <a class="nav-link" href="<%= travel_logs_path%>">Feed <span class="sr-only"></span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="my_logs">My Travels</a>
+        <a class="nav-link" href="<%= my_logs_path%>">My Travels</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="destinations">Destinations</a>
+        <a class="nav-link" href="<%= destinations_path%>">Destinations</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="travel_logs/new">Add Travel</a>
+        <a class="nav-link" href="<%= new_travel_log_path%> ">Add Travel</a>
       </li>
     </ul>
   </div>
@@ -23,6 +23,12 @@
   <% if user_signed_in? %>
     <li class="nav-item"><a class="nav-link" href="#"><%= current_user.username %></a></li>
     <li class="nav-item"><a class="nav-link" href="<%= destroy_user_session_path %>" data-turbo-method="delete">Logout</a></li>
+     <li class="nav-item">
+  <%= link_to "Delete Profile",
+              registration_path(current_user),
+              class: "nav-link",
+              data: { turbo_method: :delete, turbo_confirm: "Are you sure you want to delete your profile?" } %>
+</li>
   <% else %>
     <li class="nav-item"><a class="nav-link" href="<%= new_user_registration_path %>">Sign Up</a></li>
     <li class="nav-item"><a class="nav-link" href="<%= new_user_session_path %>">Login</a></li>
