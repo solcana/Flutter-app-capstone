@@ -1,0 +1,10 @@
+<div class="card card-body comments-section">
+  <% if @travel_log.comment.present? %>
+    <h2>Add a comment:</h2>
+    <%= form_with model: [ @travel_log, @travel_log.comments.build ] do |form| %>
+      <p>
+        <%= form.hidden_field :user_id, value: current_user.id %>
+      </p>
+    <% end %>
+  <% end %>
+</div>
