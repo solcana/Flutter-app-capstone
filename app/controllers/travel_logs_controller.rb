@@ -40,7 +40,6 @@ class TravelLogsController < ApplicationController
     @travel_log = current_user.travel_logs.find(params[:id])
     destination = Destination.find_by(category: travel_log_params[:category])
     @travel_log.update(travel_log_params.merge(destination: destination))
-    redirect_to my_logs_path
   end
 
   def destroy
@@ -60,4 +59,3 @@ class TravelLogsController < ApplicationController
   end
 
 end
-
