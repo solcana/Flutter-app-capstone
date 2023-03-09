@@ -1,10 +1,10 @@
 # Flutter-app 🦋
 
-Be the social butterfly of travel! ✈️
+Be the social butterfly of travel!
 
 ---
 
-## 🤔 About
+## About
 
 Flutter 🦋 is a Travel Log web application that allows users to create and share their travel logs and interact with other users via comments on travel logs. This is a solo full stack project built using Rails over a period of 7 days.
 
