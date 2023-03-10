@@ -40,7 +40,7 @@ Deployed version here: https://sleepy-meadow-60791.herokuapp.com/users/sign_in
 
 ---
 
-![Preview](readme_img/preview-app.png)
+![Preview](readme_img/Screenshot%202023-03-10%20at%2011.00.38.png)
 
 ---
 
