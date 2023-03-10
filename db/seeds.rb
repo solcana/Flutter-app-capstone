@@ -12,11 +12,11 @@
 
 PASSWORD = "password123"
 
-usmanb = User.create!(name: "Usman Bashir", email: "usmanb@gmail.com", password: PASSWORD)
-janetn = User.create!(name: "Nanet Nackson", email: "nanetn@gmail.com", password: PASSWORD)
-dollyb = User.create!(name: "Tolly Barton", email: "tollyb@gmail.com", password: PASSWORD)
-meltonj = User.create!(name: "Alton John", email: "altonj@gmail.com", password: PASSWORD)
-asapm = User.create!(name: "Asap Mrocky", email: "asapm@gmail.com", password: PASSWORD)
+usmanb = User.create!(username: "Usman Bashir", email: "usmanb@gmail.com", password: PASSWORD)
+janetn = User.create!(username: "Nanet Nackson", email: "nanetn@gmail.com", password: PASSWORD)
+dollyb = User.create!(username: "Tolly Barton", email: "tollyb@gmail.com", password: PASSWORD)
+meltonj = User.create!(username: "Alton John", email: "altonj@gmail.com", password: PASSWORD)
+asapm = User.create!(username: "Asap Mrocky", email: "asapm@gmail.com", password: PASSWORD)
 
 
 beach = Destination.create!(category: "beach")
