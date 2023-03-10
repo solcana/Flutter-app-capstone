@@ -26,7 +26,7 @@ Flutter 🦋 is a Travel Log web application that allows users to create and sha
 
 ## 👾 Link
 
-Deployed version here:
+Deployed version here: https://sleepy-meadow-60791.herokuapp.com/users/sign_in
 
 ---
 
