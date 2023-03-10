@@ -40,6 +40,10 @@ Deployed version here: https://sleepy-meadow-60791.herokuapp.com/users/sign_in
 
 ---
 
+![Preview](readme_img/preview-app.png)
+
+---
+
 ## 👉 ERD
 
 ![ERD](readme_img/erd.png)
