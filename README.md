@@ -64,12 +64,14 @@ Deployed version here: https://sleepy-meadow-60791.herokuapp.com/users/sign_in
 - Be deployed on Heroku or similar platform
 - Craft a readme.md file that explains your app
 
+---
 
 ## 👀 Planning
 
 I started the process by sketching out the models, their attributes and relationships between each other. Then moved on to the wireframes and user stories. Below you can find attached my erd, wireframes and user stories. After finishing these, I moved on to building the app.
 
 In my ERD below, there are four models, where a user can have zero or many travel logs, and zero to many comments, where each comment belongs to a specific user. A log belongs to a specific user and only one destination (beach, forest, mountain or city). A log can also have zero or many comments.
+
 
 #### ERD
 ![ERD](readme_img/erd.png)
