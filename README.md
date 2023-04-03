@@ -285,5 +285,3 @@ And as with all projects, the key takeaway is practice, practice, practice! Only
 - Add Maps API to show geographical locations of the travels
 - Add more destination types 
 - Search functionality to be able to search by keywords, such as destination type, or location names
-
----
