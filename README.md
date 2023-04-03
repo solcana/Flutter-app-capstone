@@ -16,6 +16,12 @@ Deployed version here: https://sleepy-meadow-60791.herokuapp.com/users/sign_in
 
 ---
 
+## 🙇‍♀️ Timeframe and Working Team
+
+Solo project, built over a period of 5 days. 
+
+---
+
 ## 🤖 Getting started / Code installation
 
 - Clone or download repo $ git clone https://github.com/your-username/your-project-name.git
